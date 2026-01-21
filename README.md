@@ -19,7 +19,6 @@ The [dataset](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-
 7. **Azure Data Factory**: A comprehensive data integration service that allows for the creation, scheduling, and orchestration of ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) workflows, featuring a visually intuitive interface for building data-driven workflows to move and transform data at scale.
 
 
-<img src="https://github.com/rohitkulkarni08/Azure-ETL-Pipeline-MovieAnalytics/blob/a0e8db3a6c03ef87bdfc023cd12e7c31da40ff17/images/azure_resource_group.png" width="1100" height="550">
 
 ## Data flow:
 
@@ -63,7 +62,7 @@ The [dataset](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-
 ### Pipeline #1: Copy Data from Blob to ADLS
 
 <div style="text-align:center;">
-  <img src= "https://github.com/hemachowdary-10/AmazonSalesAnalysis-Azure/images/blob-adls-pipeline.png" width = "600" height = "500">
+  <img src= "images/blob-adls-pipeline.png" width = "600" height = "500">
 </div>
 
 ### Pipeline #2: Trigger all Databricks Notebook Runs
@@ -75,19 +74,19 @@ The [dataset](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-
 ### Pipeline #3: Copy Data from ADLS to SQL DB
 
 <div style="text-align:center;">
-  <img src= "https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/images/sql-db-pipeline.png">
+  <img src= "images/sql-db-pipeline.png">
 </div>
 
 ### Pipeline #4: Trigger all Pipelines
 
 <div style="text-align:center;">
-  <img src= "https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/images/trigger-all-pipelines.png">
+  <img src= "images/trigger-all-pipelines.png">
 </div>
 
 ### Monitoring Pipeline Run
 
 <div style="text-align:center;">
-  <img src= "https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/images/pipeline-run.png">
+  <img src= "images/pipeline-run.png">
 </div>
 
 ## Analysis
@@ -98,19 +97,19 @@ The data is further broken down by categories, sizes, and regions to understand 
 
 ### Analysis #1: Statewise Sales Analysis
 
-This [analysis](https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/output/csv/state-analysis.csv) provides a detailed breakdown of sales data across various states in India. It includes metrics such as the number of orders, sales quantity, total sales amount, average order quantity, and average sales amount per state. The data helps in understanding regional sales trends, customer preferences, and the overall performance of sales in different states, aiding in strategic decision-making for targeted marketing and sales optimization efforts 
+This [analysis](output/csv/state-analysis.csv) provides a detailed breakdown of sales data across various states in India. It includes metrics such as the number of orders, sales quantity, total sales amount, average order quantity, and average sales amount per state. The data helps in understanding regional sales trends, customer preferences, and the overall performance of sales in different states, aiding in strategic decision-making for targeted marketing and sales optimization efforts 
 
 ### Analysis-2: Categorywise Sales Analysis
 
-This [analysis](https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/output/csv/category-analysis.csv) provides insights into sales data categorized by different types of apparel. It includes metrics such as the number of orders, sales quantity, total sales amount, average order quantity, and average sales amount for each category. This data helps in understanding the popularity and performance of each category, aiding in inventory management, marketing strategies, and product development to meet customer demands and preferences effectively.
+This [analysis](output/csv/category-analysis.csv) provides insights into sales data categorized by different types of apparel. It includes metrics such as the number of orders, sales quantity, total sales amount, average order quantity, and average sales amount for each category. This data helps in understanding the popularity and performance of each category, aiding in inventory management, marketing strategies, and product development to meet customer demands and preferences effectively.
 
 ### Analysis-3: Promotion Impact Analysis
 
-This [analysis](https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/output/csv/promotion-analysis.csv) examines the impact of promotions on sales across different apparel categories. It includes metrics such as the number of orders with and without promotions, quantity sold with and without promotions, the impact of promotions on quantity sold, sales with and without promotions, and the percentage impact of promotions on sales. This data helps in evaluating the effectiveness of promotional strategies, understanding the influence of promotions on customer purchasing behavior, and making informed decisions for future promotional campaigns to boost sales and revenue.
+This [analysis](output/csv/promotion-analysis.csv) examines the impact of promotions on sales across different apparel categories. It includes metrics such as the number of orders with and without promotions, quantity sold with and without promotions, the impact of promotions on quantity sold, sales with and without promotions, and the percentage impact of promotions on sales. This data helps in evaluating the effectiveness of promotional strategies, understanding the influence of promotions on customer purchasing behavior, and making informed decisions for future promotional campaigns to boost sales and revenue.
 
 ### Analysis-4: Cancellation Impact Analysis
 
-This [analysis](https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/output/csv/cancellation-analysis.csv) assesses the impact of order cancellations on sales across different apparel categories. It includes metrics such as the number of cancelled and not cancelled orders, cancelled and not cancelled quantity, the impact of cancellations on quantity, cancelled and not cancelled sales amount, and the percentage impact of cancellations on sales. This data helps in understanding the extent to which cancellations affect sales, identifying patterns or reasons behind cancellations, and developing strategies to minimize cancellations and their impact on overall sales and revenue.
+This [analysis](output/csv/cancellation-analysis.csv) assesses the impact of order cancellations on sales across different apparel categories. It includes metrics such as the number of cancelled and not cancelled orders, cancelled and not cancelled quantity, the impact of cancellations on quantity, cancelled and not cancelled sales amount, and the percentage impact of cancellations on sales. This data helps in understanding the extent to which cancellations affect sales, identifying patterns or reasons behind cancellations, and developing strategies to minimize cancellations and their impact on overall sales and revenue.
 
 ### Analysis-5: Size-wise Sales Analysis
 
@@ -118,14 +117,14 @@ This analysis provides insights into sales data categorized by different sizes f
 
 **Size Sale Amount Analysis**:
 
-This [analysis](https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/output/csv/size-sales-analysis.csv) displays the sales amount for each size across different categories. The data helps in understanding the revenue generated from each size and identifying popular sizes among customers for each category.
+This [analysis](output/csv/size-sales-analysis.csv) displays the sales amount for each size across different categories. The data helps in understanding the revenue generated from each size and identifying popular sizes among customers for each category.
 
 **Size Sale Quantity Analysis**:
 
-This [analysis](https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/output/csv/size-quantity-analysis.csv) shows the quantity sold for each size across the same categories. It helps in analyzing the demand and popularity of specific sizes among customers, aiding in inventory management and production planning to meet the market demand effectively.
+This [analysis](output/csv/size-quantity-analysis.csv) shows the quantity sold for each size across the same categories. It helps in analyzing the demand and popularity of specific sizes among customers, aiding in inventory management and production planning to meet the market demand effectively.
 
 Overall, this size-wise sales analysis assists in making informed decisions regarding product sizing, inventory stocking, and marketing strategies to cater to customer preferences and optimize sales performance.
 
 ### Analysis-6: International Orders Analysis
 
-This [analysis](https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/output/csv/international-analysis.csv) focuses on international orders across different apparel categories and includes metrics such as the number of orders and sales amount for various categories that were shipped outside India. This data helps in understanding the global demand for different categories, aiding in strategic planning for international expansion and marketing efforts to capture a wider customer base and increase sales in the international market.
+This [analysis](output/csv/international-analysis.csv) focuses on international orders across different apparel categories and includes metrics such as the number of orders and sales amount for various categories that were shipped outside India. This data helps in understanding the global demand for different categories, aiding in strategic planning for international expansion and marketing efforts to capture a wider customer base and increase sales in the international market.
