@@ -63,7 +63,7 @@ The [dataset](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-
 ### Pipeline #1: Copy Data from Blob to ADLS
 
 <div style="text-align:center;">
-  <img src= "https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/images/blob-adls-pipeline.png" width = "600" height = "500">
+  <img src= "https://github.com/hemachowdary-10/AmazonSalesAnalysis-Azure/images/blob-adls-pipeline.png" width = "600" height = "500">
 </div>
 
 ### Pipeline #2: Trigger all Databricks Notebook Runs
