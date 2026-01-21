@@ -28,9 +28,7 @@ The [dataset](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-
 3. **Load Data**: Transfer the processed data into an Azure SQL database to establish a reporting layer for dashboard creation
 4. **Automation**: Construct end-to-end pipelines in Azure Data Factory to automate the data flow from extraction to reporting layers
 
-<div style="text-align:center;">
-  <img src="https://github.com/rohitkulkarni08/Azure-ETL-SalesAnalysis/blob/448cd5c2470797e4fbf528283daab39ce945e872/images/Flow.png" width = "900" height = "500">
-</div>
+
 
 ## Setup and Configuration
 
